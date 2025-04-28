@@ -1,0 +1,25 @@
+import { PortfolioItem } from "../types/portfolio";
+
+export const portfolioItems: PortfolioItem[] = [
+  {
+    id: "1",
+    title: "Personal Website",
+    description: "A responsive personal website built with React and TailwindCSS.",
+    imageUrl: "https://source.unsplash.com/random/300x200?website",
+    link: "https://yourwebsite.com",
+  },
+  {
+    id: "2",
+    title: "E-commerce App",
+    description: "A full-stack e-commerce app using Next.js and Stripe API.",
+    imageUrl: "https://source.unsplash.com/random/300x200?ecommerce",
+    link: "https://ecommerceapp.com",
+  },
+  {
+    id: "3",
+    title: "Mobile Banking App",
+    description: "A mobile app for banking services built with Flutter.",
+    imageUrl: "https://source.unsplash.com/random/300x200?banking",
+    link: "https://mobilebankingapp.com",
+  },
+];
